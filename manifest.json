@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zakarch.fight-bell",
+  "name": "Fight Bell",
+  "version": "1.0.0",
+  "author": "zakaryae",
+  "license": "MIT",
+  "description": "Step away between UFC fights. A desktop alert and a bell ring the moment the fighters walk out, with no results or spoilers.",
+  "kinds": ["service", "bar-widget"],
+  "entryPoints": {
+    "service": "Service.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Fight Bell",
+    "description": "UFC walkout alerts: the bell rings when the next fight is about to start",
+    "category": "Entertainment",
+    "defaultSection": "right",
+    "allowMultiple": false,
+    "aliases": ["ufc", "mma", "fight", "walkout"]
+  }
+}
